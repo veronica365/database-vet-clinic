@@ -24,6 +24,7 @@ SELECT name FROM animals WHERE name <> 'Gabumon';
 -- Find all animals with a weight between 10.4kg and 17.3kg (including the animals with the weights that equals precisely 10.4kg or 17.3kg)
 SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 
+
 -- Inside a transaction update the animals table by setting the species column to unspecified. Verify that change was made. Then roll back the change and verify that the species columns went back to the state before the transaction.
 BEGIN TRANSACTION;
 UPDATE animals SET species = 'unspecified';
@@ -66,3 +67,33 @@ UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
 COMMIT;
 SELECT * FROM animals;
 
+
+-- How many animals are there?
+SELECT COUNT(*) AS total_animals FROM animals;
+
+-- How many animals have never tried to escape?
+SELECT COUNT(*) AS total_animals FROM animals WHERE escape_attempts=0;
+
+-- What is the average weight of animals?
+SELECT ROUND(AVG(weight_kg), 2) AS average_weight FROM animals;
+
+-- Who escapes the most, neutered or not neutered animals?
+SELECT
+  neutered,
+  COUNT(escape_attempts) AS number_of_escapes
+FROM animals
+WHERE escape_attempts > 0
+GROUP BY neutered
+ORDER BY number_of_escapes DESC
+
+-- What is the minimum and maximum weight of each type of animal?
+SELECT MIN(weight_kg) AS minimum_weight, MAX(weight_kg) AS maximum_weight FROM animals
+
+-- What is the average number of escape attempts per animal type of those born between 1990 and 2000?
+SELECT
+  species,
+  ROUND(AVG(escape_attempts), 2) AS average_escape_attempts
+FROM animals
+WHERE EXTRACT(YEAR FROM date_of_birth) BETWEEN 1990 AND 2000
+GROUP BY species
+ORDER BY average_escape_attempts DESC
