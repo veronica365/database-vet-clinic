@@ -13,3 +13,6 @@ CREATE TABLE animals (
 
 ALTER SEQUENCE animals_id_seq
 OWNED BY animals.id;
+
+ALTER TABLE animals DROP COLUMN IF EXISTS species;
+ALTER TABLE animals ADD COLUMN species VARCHAR(255);
