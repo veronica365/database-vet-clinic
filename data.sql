@@ -16,3 +16,26 @@ VALUES
 ('Boarmon', '06-07-2005', 7, true, 20.4),
 ('Blossom', '10-13-1998', 3, true, 17),
 ('Ditto', '05-14-2022', 4, true, 22);
+
+INSERT INTO owners (fullname, age)
+VALUES
+('Sam Smith', 34),
+('Jennifer Orwell', 19),
+('Bob', 45),
+('Melody Pond ', 77),
+('Dean Winchester', 14),
+('Jodie Whittaker', 38);
+
+INSERT INTO species (name)
+VALUES
+('Pokemon'),
+('Digimon');
+
+UPDATE animals SET species_id = 2 WHERE name LIKE '%mon';
+UPDATE animals SET species_id = 1 WHERE name NOT LIKE '%mon';
+
+UPDATE animals SET owner_id = 1 WHERE id = 1;
+UPDATE animals SET owner_id = 2 WHERE id IN (2,3);
+UPDATE animals SET owner_id = 3 WHERE id IN (4,6);
+UPDATE animals SET owner_id = 4 WHERE id IN (5,7,10);
+UPDATE animals SET owner_id = 5 WHERE id IN (8,9);
