@@ -219,3 +219,14 @@ WHERE vets.name LIKE '%Maisy Smith%'
 GROUP BY species.name
 ORDER BY number_of_visits DESC
 LIMIT 1;
+
+
+-- Use EXPLAIN ANALYZE to audit the performance of the below quiries
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits WHERE animal_id = 4;
+EXPLAIN ANALYZE SELECT * FROM visits WHERE vet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners WHERE email = 'owner_18327@mail.com';
+
+-- Use EXPLAIN ANALYZE to audit the performance of the below quiries
+EXPLAIN ANALYZE SELECT COUNT(animal_id) FROM visits WHERE animal_id = 4;
+EXPLAIN ANALYZE SELECT id, vet_id, animal_id FROM visits WHEREvet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners WHERE email = 'owner_18327@mail.com';

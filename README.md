@@ -2,36 +2,29 @@
 
 In this project, you will use a relational database to create the initial data structure for a vet clinic. You will create a table to store animals' information, insert some data into it, and query it.
 
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
-<a name="readme-top"></a>
-
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Author](#author)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [Vet clinic](#vet-clinic)
+  - [Getting Started](#getting-started)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 database-vet-clinic ](#-database-vet-clinic-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👤 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 
 # 📖 database-vet-clinic <a name="about-project"></a>
@@ -58,6 +51,16 @@ A well-designed database that can make it easier for vet clinics to operate more
 - **[Has SQL commands to access and query data from the table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Getting Started
+
+This repository includes files with plain SQL that can be used to recreate a database:
+
+- Use [schema.sql](./schema.sql) to create all tables.
+- Use [data.sql](./data.sql) to populate tables with sample data.
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+
+<a name="readme-top"></a>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -114,12 +117,24 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Williams Serubiri**
 
 - GitHub: [@veronica365](https://github.com/veronica365)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/william-sserubiri-veronica/)
+  
+👤  **BB-Simon**
+
+- GitHub: [@githubhandle](https://github.com/BB-Simon) 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bb-simon/) 
+
+👤 **Leslie Gudo**
+
+- GitHub: [@githubhandle](https://github.com/Leeoasis)
+- Twitter: [@twitterhandle](https://twitter.com/gudo_leslie)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leslie-gudo/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
