@@ -114,11 +114,23 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👤 Author <a name="author"></a>
+## 👥 Authors <a name="authors"></a>
+
+👤 **Williams Serubiri**
 
 - GitHub: [@veronica365](https://github.com/veronica365)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/william-sserubiri-veronica/)
 
+👤 **Leslie Gudo**
+
+- GitHub: [@githubhandle](https://github.com/Leeoasis)
+- Twitter: [@twitterhandle](https://twitter.com/gudo_leslie)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leslie-gudo/)
+
+👤  **BB-Simon**
+
+- GitHub: [@githubhandle](https://github.com/BB-Simon) 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bb-simon/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
