@@ -117,9 +117,10 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👤 Authors <a name="authors"></a>
 
-👤  **Williams-Serubiri**
+## 👥 Authors <a name="authors"></a>
+
+👤 **Williams Serubiri**
 
 - GitHub: [@veronica365](https://github.com/veronica365)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/william-sserubiri-veronica/)
