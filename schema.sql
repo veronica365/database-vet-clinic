@@ -79,6 +79,7 @@ ALTER SEQUENCE visits_id_seq OWNED BY visits.id;
 -- Add an email column to your owners table
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
+CREATE INDEX animal_id_desc ON visits(animal_id DESC);
 
 DROP INDEX IF EXISTS date_of_visit;
 CREATE INDEX date_of_visit ON visits(date_of_visit ASC);
